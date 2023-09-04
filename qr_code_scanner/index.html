@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-Code_Scanner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="">
+            <input type="file" hidden>
+            <img src="" alt="qr-code" height="100px" width="100px">
+            <div class="content">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <p>upload the file</p>
+            </div>
+        </form>
+        <div class="details">
+            <textarea disabled cols="30" rows="10"></textarea>
+            <div class="buttons">
+                <button class="close">close</button>
+                <button class="copy-text">copy</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
